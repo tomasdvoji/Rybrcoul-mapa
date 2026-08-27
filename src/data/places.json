@@ -1,0 +1,836 @@
+[
+  {
+    "id": 1,
+    "number": 1,
+    "name": "Pohoda",
+    "address": "Tržnice, Trutnov",
+    "mapPosition": {
+      "x": 43.3,
+      "y": 43.5
+    },
+    "program": [
+      {
+        "start": "2026-09-19T13:30:00+02:00",
+        "end": "2026-09-19T14:30:00+02:00",
+        "title": "Pjet Samyc",
+        "description": "babský music gang"
+      },
+      {
+        "start": "2026-09-19T15:15:00+02:00",
+        "end": "2026-09-19T16:15:00+02:00",
+        "title": "Mejkap",
+        "description": "PL, rock"
+      },
+      {
+        "start": "2026-09-19T17:00:00+02:00",
+        "end": "2026-09-19T18:00:00+02:00",
+        "title": "Twisted Rod",
+        "description": "rockabilly"
+      },
+      {
+        "start": "2026-09-19T18:30:00+02:00",
+        "end": "2026-09-19T19:30:00+02:00",
+        "title": "Benjaming's Clan",
+        "description": "rock'n'dudy"
+      },
+      {
+        "start": "2026-09-19T20:00:00+02:00",
+        "end": "2026-09-19T21:15:00+02:00",
+        "title": "The Tchendos",
+        "description": "elektronický underground"
+      },
+      {
+        "start": "2026-09-19T21:15:00+02:00",
+        "end": "2026-09-19T22:00:00+02:00",
+        "title": "Tam Tam Batucada",
+        "description": "průvod k Uffu"
+      },
+      {
+        "start": "2026-09-19T22:00:00+02:00",
+        "end": "2026-09-19T23:15:00+02:00",
+        "title": "Skyline",
+        "description": "elektronický pop"
+      },
+      {
+        "start": "2026-09-20T00:00:00+02:00",
+        "end": "2026-09-20T00:50:00+02:00",
+        "title": "Projekt 143",
+        "description": "pop rock"
+      }
+    ],
+    "stage": "HELION STAGE"
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "name": "UFFO",
+    "address": "UFFO, Trutnov",
+    "mapPosition": {
+      "x": 36.0,
+      "y": 20.6
+    },
+    "program": [
+      {
+        "start": "2026-09-19T12:50:00+02:00",
+        "end": "2026-09-19T13:00:00+02:00",
+        "title": "Zahájení festivalu s Rýbrcoulem"
+      },
+      {
+        "start": "2026-09-19T13:00:00+02:00",
+        "end": "2026-09-19T14:15:00+02:00",
+        "title": "Kaczawianie",
+        "description": "PL, folklor"
+      },
+      {
+        "start": "2026-09-19T14:45:00+02:00",
+        "end": "2026-09-19T16:00:00+02:00",
+        "title": "Compot",
+        "description": "big beat"
+      },
+      {
+        "start": "2026-09-19T16:10:00+02:00",
+        "end": "2026-09-19T16:30:00+02:00",
+        "title": "Zhor",
+        "description": "folklórní soubor"
+      },
+      {
+        "start": "2026-09-19T16:40:00+02:00",
+        "end": "2026-09-19T16:50:00+02:00",
+        "title": "Zahájení festivalu Otevřené hospody"
+      },
+      {
+        "start": "2026-09-19T16:50:00+02:00",
+        "end": "2026-09-19T17:00:00+02:00",
+        "title": "Tam Tam Batucada",
+        "description": "vychází na náměstí"
+      },
+      {
+        "start": "2026-09-19T17:00:00+02:00",
+        "end": "2026-09-19T18:15:00+02:00",
+        "title": "MyBand!",
+        "description": "funky"
+      },
+      {
+        "start": "2026-09-19T18:45:00+02:00",
+        "end": "2026-09-19T19:30:00+02:00",
+        "title": "Austy",
+        "description": "rap"
+      },
+      {
+        "start": "2026-09-19T20:00:00+02:00",
+        "end": "2026-09-19T21:25:00+02:00",
+        "title": "Jakž Takž",
+        "description": "estrádní zábavní uskupení"
+      },
+      {
+        "start": "2026-09-19T21:25:00+02:00",
+        "end": "2026-09-19T21:35:00+02:00",
+        "title": "Tam Tam Batucada + Vibrasil Samba Show"
+      },
+      {
+        "start": "2026-09-19T21:40:00+02:00",
+        "end": "2026-09-19T22:15:00+02:00",
+        "title": "Jakž Takž + tanečnice"
+      },
+      {
+        "start": "2026-09-19T22:45:00+02:00",
+        "end": "2026-09-19T23:55:00+02:00",
+        "title": "Gorily v mlze",
+        "description": "rock"
+      }
+    ],
+    "stage": "MONTRAGO STAGE"
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "name": "Rozmarýnek Pod Lékárnou",
+    "address": "Pod Lékárnou, Trutnov",
+    "mapPosition": {
+      "x": 28.8,
+      "y": 29.2
+    },
+    "program": [
+      {
+        "start": "2026-09-19T19:00:00+02:00",
+        "end": "2026-09-19T22:00:00+02:00",
+        "title": "Filip a Nikita",
+        "description": "cover"
+      }
+    ],
+    "stage": "HITACHI STAGE"
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "name": "Kotva",
+    "address": "Kotva, Trutnov",
+    "mapPosition": {
+      "x": 35.2,
+      "y": 35.4
+    },
+    "program": [
+      {
+        "start": "2026-09-19T19:00:00+02:00",
+        "end": "2026-09-19T23:59:00+02:00",
+        "title": "Marta a Rasputin, Zpěvandy za bukem, Balkan Party Band",
+        "description": "do vyčerpání"
+      }
+    ],
+    "stage": "ELEKTRO-TRUTNOV.CZ STAGE"
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "name": "Pivnice U Michala",
+    "address": "Pivnice U Michala, Trutnov",
+    "mapPosition": {
+      "x": 39.7,
+      "y": 35.9
+    },
+    "program": [
+      {
+        "start": "2026-09-19T17:00:00+02:00",
+        "end": "2026-09-19T19:30:00+02:00",
+        "title": "Veget táta&dcera",
+        "description": "cover"
+      },
+      {
+        "start": "2026-09-19T20:00:00+02:00",
+        "end": "2026-09-20T00:00:00+02:00",
+        "title": "DJ Tommy"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "name": "Čajovna Trutnov",
+    "address": "Čajovna Trutnov",
+    "mapPosition": {
+      "x": 46.1,
+      "y": 32.9
+    },
+    "program": [
+      {
+        "start": "2026-09-19T17:00:00+02:00",
+        "end": "2026-09-19T18:00:00+02:00",
+        "title": "Dava",
+        "description": "písně pro přítomné okamžiky"
+      },
+      {
+        "start": "2026-09-19T18:30:00+02:00",
+        "end": "2026-09-19T19:00:00+02:00",
+        "title": "Divoké bubny s tanečníky"
+      },
+      {
+        "start": "2026-09-19T19:30:00+02:00",
+        "end": "2026-09-19T20:00:00+02:00",
+        "title": "Balkan Party Band",
+        "description": "balkánská dechovka"
+      },
+      {
+        "start": "2026-09-19T21:00:00+02:00",
+        "end": "2026-09-19T23:00:00+02:00",
+        "title": "Shamantryp",
+        "description": "mantry + zvuková ceremonie"
+      }
+    ],
+    "stage": "EVENT ENERGY STAGE"
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "name": "Antik Kafe",
+    "address": "Antik Kafe, Trutnov",
+    "mapPosition": {
+      "x": 42.4,
+      "y": 32.1
+    },
+    "program": [
+      {
+        "start": "2026-09-19T14:00:00+02:00",
+        "end": "2026-09-19T22:00:00+02:00",
+        "title": "Music point Trutnov, 3JJ, Just now!, Sejkory"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "number": 8,
+    "name": "Poshta420 Bar",
+    "address": "Poshta420 Bar, Trutnov",
+    "mapPosition": {
+      "x": 51.8,
+      "y": 36.2
+    },
+    "program": [
+      {
+        "start": "2026-09-19T21:00:00+02:00",
+        "end": "2026-09-20T00:00:00+02:00",
+        "title": "DJ Pete a discohouse"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "name": "Sokolovna",
+    "address": "Sokolovna, Trutnov",
+    "mapPosition": {
+      "x": 72.5,
+      "y": 28.5
+    },
+    "program": [
+      {
+        "start": "2026-09-19T19:00:00+02:00",
+        "end": "2026-09-19T23:00:00+02:00",
+        "title": "The Neighbours",
+        "description": "neohrané hity"
+      }
+    ],
+    "stage": "HITACHI STAGE"
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "name": "BSSHOP",
+    "address": "BSSHOP, Trutnov",
+    "mapPosition": {
+      "x": 52.0,
+      "y": 18.3
+    },
+    "program": [
+      {
+        "start": "2026-09-19T13:00:00+02:00",
+        "end": "2026-09-20T01:00:00+02:00",
+        "title": "Jaabrashka DJs, Defoliant, Temppowerfer, Waypa, Hanes"
+      }
+    ],
+    "stage": "BSSHOP TANEČNÍ STAN"
+  },
+  {
+    "id": 11,
+    "number": 11,
+    "name": "Železný Bar",
+    "address": "Železný Bar, Trutnov",
+    "mapPosition": {
+      "x": 43.3,
+      "y": 25.9
+    },
+    "program": [
+      {
+        "start": "2026-09-19T15:30:00+02:00",
+        "end": "2026-09-19T16:30:00+02:00",
+        "title": "Five O'clock",
+        "description": "PL, rock"
+      },
+      {
+        "start": "2026-09-19T17:00:00+02:00",
+        "end": "2026-09-19T18:00:00+02:00",
+        "title": "Punkevní Jesvyně",
+        "description": "punk"
+      },
+      {
+        "start": "2026-09-19T18:45:00+02:00",
+        "end": "2026-09-19T20:00:00+02:00",
+        "title": "Vision Days",
+        "description": "punk"
+      },
+      {
+        "start": "2026-09-19T20:45:00+02:00",
+        "end": "2026-09-19T21:45:00+02:00",
+        "title": "Dukla Vozovna",
+        "description": "punk"
+      },
+      {
+        "start": "2026-09-19T22:15:00+02:00",
+        "end": "2026-09-19T23:15:00+02:00",
+        "title": "Nežfaleš",
+        "description": "punk"
+      },
+      {
+        "start": "2026-09-19T23:45:00+02:00",
+        "end": "2026-09-20T00:45:00+02:00",
+        "title": "Driák",
+        "description": "punk"
+      }
+    ],
+    "stage": "HR STAVBY STAGE"
+  },
+  {
+    "id": 12,
+    "number": 12,
+    "name": "Hotel Krakonoš",
+    "address": "Hotel Krakonoš, Trutnov",
+    "mapPosition": {
+      "x": 33.9,
+      "y": 51.7
+    },
+    "program": [
+      {
+        "start": "2026-09-19T16:00:00+02:00",
+        "end": "2026-09-19T17:30:00+02:00",
+        "title": "Formani",
+        "description": "country"
+      },
+      {
+        "start": "2026-09-19T18:00:00+02:00",
+        "end": "2026-09-19T19:30:00+02:00",
+        "title": "Pěna",
+        "description": "country"
+      },
+      {
+        "start": "2026-09-19T20:00:00+02:00",
+        "end": "2026-09-19T21:15:00+02:00",
+        "title": "Skruže skladem",
+        "description": "country, folk"
+      },
+      {
+        "start": "2026-09-19T22:00:00+02:00",
+        "end": "2026-09-20T00:00:00+02:00",
+        "title": "Bandit",
+        "description": "country"
+      }
+    ],
+    "stage": "TRANSPORT TRUTNOV STAGE"
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "name": "FITDAY 4U",
+    "address": "FITDAY 4U, Trutnov",
+    "mapPosition": {
+      "x": 38.6,
+      "y": 51.6
+    },
+    "program": [
+      {
+        "start": "2026-09-19T17:00:00+02:00",
+        "end": "2026-09-19T18:00:00+02:00",
+        "title": "Eva Schrötterová a Klára Fišerová",
+        "description": "cover"
+      },
+      {
+        "start": "2026-09-19T18:30:00+02:00",
+        "end": "2026-09-19T19:30:00+02:00",
+        "title": "Rambajzzz",
+        "description": "studentský rock"
+      },
+      {
+        "start": "2026-09-19T20:30:00+02:00",
+        "end": "2026-09-19T21:30:00+02:00",
+        "title": "Underneath",
+        "description": "emo rock"
+      },
+      {
+        "start": "2026-09-19T22:00:00+02:00",
+        "end": "2026-09-20T00:00:00+02:00",
+        "title": "Grepy",
+        "description": "after party"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "name": "Atrium",
+    "address": "Atrium, Trutnov",
+    "mapPosition": {
+      "x": 46.7,
+      "y": 51.2
+    },
+    "program": [
+      {
+        "start": "2026-09-19T19:30:00+02:00",
+        "end": "2026-09-19T23:00:00+02:00",
+        "title": "Martias & Míla Charvát, Zpěvandy za bukem"
+      }
+    ],
+    "stage": "3K STAVBY STAGE"
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "name": "Barleo",
+    "address": "Barleo, Trutnov",
+    "mapPosition": {
+      "x": 49.1,
+      "y": 54.5
+    },
+    "program": [
+      {
+        "start": "2026-09-19T20:00:00+02:00",
+        "end": "2026-09-20T01:00:00+02:00",
+        "title": "DJ Flexnar",
+        "description": "edm, house, hip-hop"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "number": 16,
+    "name": "Náměstí",
+    "address": "Krakonošovo náměstí, Trutnov",
+    "mapPosition": {
+      "x": 57.3,
+      "y": 58.3
+    },
+    "program": [
+      {
+        "start": "2026-09-19T13:00:00+02:00",
+        "end": "2026-09-19T14:20:00+02:00",
+        "title": "J.S.M.E.",
+        "description": "folk rock"
+      },
+      {
+        "start": "2026-09-19T14:50:00+02:00",
+        "end": "2026-09-19T15:50:00+02:00",
+        "title": "Sen to czy jawa...?",
+        "description": "PL, orientální písně a tance"
+      },
+      {
+        "start": "2026-09-19T16:00:00+02:00",
+        "end": "2026-09-19T17:00:00+02:00",
+        "title": "Sundávání draka"
+      },
+      {
+        "start": "2026-09-19T17:15:00+02:00",
+        "end": "2026-09-19T18:30:00+02:00",
+        "title": "Sband",
+        "description": "pop-rock"
+      },
+      {
+        "start": "2026-09-19T19:00:00+02:00",
+        "end": "2026-09-19T20:15:00+02:00",
+        "title": "Marie Tilšarová",
+        "description": "léčivý folk"
+      },
+      {
+        "start": "2026-09-19T20:45:00+02:00",
+        "end": "2026-09-19T22:15:00+02:00",
+        "title": "Bez obav",
+        "description": "rock"
+      },
+      {
+        "start": "2026-09-19T22:45:00+02:00",
+        "end": "2026-09-20T00:00:00+02:00",
+        "title": "12:Piet",
+        "description": "kolotočářský folklór"
+      }
+    ],
+    "stage": "TOPENÍ LEVNĚ.CZ STAGE"
+  },
+  {
+    "id": 17,
+    "number": 17,
+    "name": "U Draka",
+    "address": "U Draka, Trutnov",
+    "mapPosition": {
+      "x": 46.8,
+      "y": 62.4
+    },
+    "program": [
+      {
+        "start": "2026-09-19T19:00:00+02:00",
+        "end": "2026-09-19T23:00:00+02:00",
+        "title": "Pegas",
+        "description": "big-beat-rock"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "number": 18,
+    "name": "Bruno Coffee & Bar",
+    "address": "Bruno Coffee & Bar, Trutnov",
+    "mapPosition": {
+      "x": 42.0,
+      "y": 75.7
+    },
+    "program": [
+      {
+        "start": "2026-09-19T17:00:00+02:00",
+        "end": "2026-09-19T18:00:00+02:00",
+        "title": "Alena Hladká a Petr Ožana",
+        "description": "šansony"
+      },
+      {
+        "start": "2026-09-19T18:30:00+02:00",
+        "end": "2026-09-19T20:00:00+02:00",
+        "title": "Robert Štěpán",
+        "description": "písničky s kytarou"
+      },
+      {
+        "start": "2026-09-19T20:30:00+02:00",
+        "end": "2026-09-19T21:30:00+02:00",
+        "title": "Alena Hladká a Petr Ožana",
+        "description": "šansony"
+      },
+      {
+        "start": "2026-09-19T22:00:00+02:00",
+        "end": "2026-09-19T23:30:00+02:00",
+        "title": "Pepa Lábus",
+        "description": "autorský písničkář"
+      }
+    ],
+    "stage": "STAVEBNINY DEK STAGE"
+  },
+  {
+    "id": 19,
+    "number": 19,
+    "name": "Vinotéka U Hroznu",
+    "address": "Vinotéka U Hroznu, Trutnov",
+    "mapPosition": {
+      "x": 44.3,
+      "y": 78.5
+    },
+    "program": [
+      {
+        "start": "2026-09-19T20:00:00+02:00",
+        "end": "2026-09-19T21:15:00+02:00",
+        "title": "Lojzas Brojlers",
+        "description": "folk"
+      },
+      {
+        "start": "2026-09-19T21:45:00+02:00",
+        "end": "2026-09-19T22:45:00+02:00",
+        "title": "Rohořez",
+        "description": "blues, pop-rock"
+      },
+      {
+        "start": "2026-09-19T23:15:00+02:00",
+        "end": "2026-09-20T00:00:00+02:00",
+        "title": "Lojzas Brojlers",
+        "description": "folk"
+      }
+    ],
+    "stage": "AUTOSERVIS MARTIN BUREŠ STAGE"
+  },
+  {
+    "id": 20,
+    "number": 20,
+    "name": "Herna Méďa",
+    "address": "Herna Méďa, Trutnov",
+    "mapPosition": {
+      "x": 55.1,
+      "y": 72.2
+    },
+    "program": [
+      {
+        "start": "2026-09-19T17:00:00+02:00",
+        "end": "2026-09-19T18:00:00+02:00",
+        "title": "Zpívání s permoníky z MŠ Srdíčko"
+      },
+      {
+        "start": "2026-09-19T18:00:00+02:00",
+        "end": "2026-09-19T21:00:00+02:00",
+        "title": "Tomáš Toman",
+        "description": "alternativní folk, autorské čtení"
+      },
+      {
+        "start": "2026-09-19T21:30:00+02:00",
+        "end": "2026-09-19T22:30:00+02:00",
+        "title": "Tomáš Josef",
+        "description": "pianista"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "number": 21,
+    "name": "AN Café",
+    "address": "AN Café, Trutnov",
+    "mapPosition": {
+      "x": 51.0,
+      "y": 65.8
+    },
+    "program": [
+      {
+        "start": "2026-09-19T17:15:00+02:00",
+        "end": "2026-09-19T17:45:00+02:00",
+        "title": "Divoké bubny s tanečníky"
+      },
+      {
+        "start": "2026-09-19T18:00:00+02:00",
+        "end": "2026-09-19T19:30:00+02:00",
+        "title": "Slam poetry"
+      },
+      {
+        "start": "2026-09-19T20:00:00+02:00",
+        "end": "2026-09-19T22:00:00+02:00",
+        "title": "Vende Ballini",
+        "description": "live looping show"
+      }
+    ],
+    "stage": "ALLRISK STAGE"
+  },
+  {
+    "id": 22,
+    "number": 22,
+    "name": "U Tří Korunek",
+    "address": "U Tří Korunek, Trutnov",
+    "mapPosition": {
+      "x": 65.7,
+      "y": 60.4
+    },
+    "program": [
+      {
+        "start": "2026-09-19T17:00:00+02:00",
+        "end": "2026-09-19T18:15:00+02:00",
+        "title": "Tomáš Josef",
+        "description": "pianista"
+      },
+      {
+        "start": "2026-09-19T19:00:00+02:00",
+        "end": "2026-09-19T19:30:00+02:00",
+        "title": "Natálie Kunčíková",
+        "description": "harfa"
+      },
+      {
+        "start": "2026-09-19T20:00:00+02:00",
+        "end": "2026-09-19T21:00:00+02:00",
+        "title": "Dava",
+        "description": "písně pro přítomné okamžiky"
+      }
+    ],
+    "stage": "REALITY TU STAGE"
+  },
+  {
+    "id": 23,
+    "number": 23,
+    "name": "Pullt",
+    "address": "Pullt, Trutnov",
+    "mapPosition": {
+      "x": 74.1,
+      "y": 56.8
+    },
+    "program": [
+      {
+        "start": "2026-09-19T17:00:00+02:00",
+        "end": "2026-09-19T19:00:00+02:00",
+        "title": "Jan Hauser a Jan Kopřiva",
+        "description": "cover music"
+      },
+      {
+        "start": "2026-09-19T19:30:00+02:00",
+        "end": "2026-09-19T20:30:00+02:00",
+        "title": "Tomáš Josef",
+        "description": "pianista"
+      },
+      {
+        "start": "2026-09-19T20:45:00+02:00",
+        "end": "2026-09-19T21:15:00+02:00",
+        "title": "Natálie Kunčíková",
+        "description": "harfa"
+      },
+      {
+        "start": "2026-09-19T21:30:00+02:00",
+        "end": "2026-09-19T22:15:00+02:00",
+        "title": "Balkan Party Band",
+        "description": "balkánská dechovka"
+      },
+      {
+        "start": "2026-09-19T22:30:00+02:00",
+        "end": "2026-09-19T23:00:00+02:00",
+        "title": "Divoké bubny s tanečníky"
+      }
+    ],
+    "stage": "PEPPERL+FUCHS STAGE"
+  },
+  {
+    "id": 24,
+    "number": 24,
+    "name": "FO3 Pod Hradem",
+    "address": "FO3, Trutnov",
+    "mapPosition": {
+      "x": 58.7,
+      "y": 46.7
+    },
+    "program": [
+      {
+        "start": "2026-09-19T17:00:00+02:00",
+        "end": "2026-09-19T23:59:00+02:00",
+        "title": "HIP HOP scéna: De Zrechts, Austy, MC Zychy, Eli M, Fotr M + DJs"
+      }
+    ],
+    "stage": "PAP TRUTNOV & ELEKTROCHRÁM STAGE"
+  },
+  {
+    "id": 25,
+    "number": 25,
+    "name": "Květka",
+    "address": "Květka, Trutnov",
+    "mapPosition": {
+      "x": 37.8,
+      "y": 80.8
+    },
+    "program": [
+      {
+        "start": "2026-09-19T17:00:00+02:00",
+        "end": "2026-09-19T19:00:00+02:00",
+        "title": "Rohořez",
+        "description": "blues, pop-rock"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "number": 26,
+    "name": "Pivovar Trautenberk",
+    "address": "Pivovar Trautenberk, Trutnov",
+    "mapPosition": {
+      "x": 21.5,
+      "y": 85.4
+    },
+    "program": [
+      {
+        "start": "2026-09-19T18:30:00+02:00",
+        "end": "2026-09-19T21:30:00+02:00",
+        "title": "PWC",
+        "description": "rock"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "number": 27,
+    "name": "Bumble Bee Bistro",
+    "address": "Bumble Bee Bistro, Trutnov",
+    "mapPosition": {
+      "x": 32.9,
+      "y": 11.2
+    },
+    "program": [
+      {
+        "start": "2026-09-19T17:00:00+02:00",
+        "end": "2026-09-19T21:00:00+02:00",
+        "title": "Kryštof Sedílek",
+        "description": "groove-funk-jazz"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "number": 28,
+    "name": "Na Hřišti (HSM)",
+    "address": "HSM Trutnov, Na Nivách",
+    "mapPosition": {
+      "x": 17.0,
+      "y": 17.1
+    },
+    "program": [
+      {
+        "start": "2026-09-19T17:30:00+02:00",
+        "end": "2026-09-19T20:30:00+02:00",
+        "title": "LejDies",
+        "description": "pop music"
+      },
+      {
+        "start": "2026-09-20T00:00:00+02:00",
+        "end": "2026-09-20T02:00:00+02:00",
+        "title": "DJ Fousek"
+      }
+    ]
+  }
+]

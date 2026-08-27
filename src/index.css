@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700;900&family=Inter:ital,wght@0,400;0,500;0,600;1,400&family=Caveat:wght@600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-parch: #e7d6b4;
+  --color-parch-2: #f3e8cf;
+  --color-parch-3: #d8c39b;
+  --color-ink: #2a2014;
+  --color-ink-soft: #6a5740;
+  --color-brand-red: #b5301f;
+  --color-brand-gold: #cf9018;
+  --color-forest: #2f3a2c;
+
+  --font-display: "Roboto Slab", Georgia, serif;
+  --font-serif: "Inter", "Segoe UI", Arial, sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--color-ink);
+  background-color: #e7d6b4;
+  background-image: radial-gradient(
+      120% 55% at 50% -8%,
+      rgba(74, 56, 30, 0.28),
+      transparent 62%
+    ),
+    radial-gradient(100% 45% at 50% 108%, rgba(54, 44, 26, 0.22), transparent 60%);
+  background-attachment: fixed;
+  font-family: var(--font-serif);
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Jemná pergamenová textura */
+.paper {
+  background-image: repeating-linear-gradient(
+      45deg,
+      rgba(120, 90, 50, 0.03) 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(120, 90, 50, 0.03) 0 2px,
+      transparent 2px 4px
+    );
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Sépiový stag z brandu (bílé SVG přebarvíme na tmavou sépii) */
+.stag {
+  filter: brightness(0) saturate(100%) invert(11%) sepia(28%) saturate(900%)
+    hue-rotate(354deg) brightness(95%) contrast(92%);
+}
+.stag-light {
+  filter: brightness(0) invert(1);
+}
+
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(181, 48, 31, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 9px rgba(181, 48, 31, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(181, 48, 31, 0);
+  }
+}
+.animate-pulse-ring {
+  animation: pulse-ring 1.8s infinite;
+}
+
+@keyframes sheet-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.animate-sheet-up {
+  animation: sheet-up 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* na PC je detail boční lišta – najíždí zleva */
+@keyframes sheet-left {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+@media (min-width: 1024px) {
+  .animate-sheet-up { animation-name: sheet-left; }
+}

@@ -1,56 +1,53 @@
-# Trutnov otevřené hospody – interaktivní mapa
+# Otevřené hospody 2026 (Trutnov) – interaktivní mapa
 
-Statická webová aplikace (HTML + CSS + vanilla JS + Leaflet). **Žádný backend, žádná databáze, žádné API klíče.**
+Mobilní webová aplikace: mapa akce + klikací očíslované body 1–28 + program
++ „Právě hraje“ + navigace přes Google Maps. React + Vite + Tailwind, bez backendu,
+data v JSONu. Vychází z aplikace Rýbrcoul 2025, s mapou a programem ročníku 2026.
 
-## Pro IT správce webu
-
-1. Vezměte obsah složky `dist/`.
-2. Nahrajte ho na web, například do `https://vase-domena.cz/mapa/`.
-3. Hotovo. Nic se neinstaluje, nic neběží na serveru.
-
-Důležité: web musí běžet přes **HTTPS**, jinak prohlížeče nepovolí geolokaci („Moje poloha“).
-
-## Editace dat (bez znalosti programování)
-
-| Co chci změnit | Soubor |
-|---|---|
-| Názvy podniků, čísla, GPS souřadnice, pozice čísla na obrázku | `data/venues.json` |
-| Interpreti a časy programu | `data/program.json` |
-| Kalibrace GPS ↔ obrázek, rozměry obrázku, DEBUG režim | `js/config.js` |
-| Obrázek mapy | `assets/mapa.jpg` (přepsat stejným názvem) |
-
-Časy v `program.json` pište jako plné ISO s časovou zónou, např. `"2026-09-19T18:00:00+02:00"`.
-
-### Doplnění GPS podniků
-V `data/venues.json` nahraďte `"latitude": 0, "longitude": 0` skutečnými souřadnicemi (např. z Google Maps – pravý klik na místo → souřadnice). Bez nich nefunguje tlačítko Navigovat a vzdálenosti.
-
-### Kalibrace polohy uživatele na obrázku
-1. V `js/config.js` nastavte `const DEBUG = true;`.
-2. Otevřete mapu a klikejte na místa – dole se zobrazí `imageX`/`imageY`. Takto ověříte i pozice červených čísel (hotspotů).
-3. Vyberte 3–6 dobře rozprostřených bodů (rohy náměstí, křižovatky), zjistěte jejich skutečné GPS a pixelové souřadnice a zapište je do `calibrationPoints` v `js/config.js`.
-4. Vraťte `DEBUG = false;` pro produkci.
-
-Dokud kalibrace není vyplněná, aplikace polohu na mapě nezobrazuje (ale navigace do Google Maps funguje).
-
-### Rozšířená mapa (volitelně)
-Pokud vznikne rozšířená varianta mapy s dokresleným okolím (`assets/mapa-extended.webp`, originál uvnitř nesmí být změněn):
-
-1. Nahrajte soubor do `assets/mapa-extended.webp`.
-2. V `js/config.js` nastavte `USE_EXTENDED_MAP = true` a vyplňte `EXTENDED_WIDTH`, `EXTENDED_HEIGHT` a `EXTENDED_OFFSET_X/Y` (o kolik pixelů je originální mapa posunutá od levého horního rohu rozšířeného obrázku).
-3. Hotspoty ani kalibraci není třeba přepočítávat – zadávají se pořád v pixelech originálu, posun se přičítá automaticky.
-
-Přepnutí zpět: `USE_EXTENDED_MAP = false`. Když rozšířený soubor chybí nebo se nenačte, aplikace automaticky použije `mapa.jpg`.
-
-## Lokální testování
-
-Ve složce projektu spusťte jednoduchý server (kvůli `fetch` JSON souborů nestačí otevřít soubor přímo):
+## Spuštění (vývoj)
 
 ```bash
-python -m http.server 8000
+npm install
+npm run dev      # vývoj (http://localhost:5173)
+npm run build    # produkční build do dist/
 ```
 
-a otevřete `http://localhost:8000/`. Geolokace na `localhost` funguje i bez HTTPS.
+## Nasazení (pro IT správce)
 
-## Sestavení dist/
+Obsah složky `dist/` nahrajte na web, např. do `https://vase-domena.cz/mapa/`.
+Build používá relativní cesty, podadresář nevadí. Nic se neinstaluje, žádný server.
 
-`dist/` je prostá kopie produkčních souborů. Po úpravách ji obnovte zkopírováním: `index.html`, `sw.js`, `css/`, `js/`, `data/`, `assets/`, `vendor/`.
+## Co kde upravit
+
+- **Místa a program** → `src/data/places.json`
+  (po úpravě znovu `npm run build`)
+- **Pozice bodů na mapě** → pole `mapPosition` v každém místě
+  (procenta: `x` zleva, `y` shora)
+- **GPS podniků** → doplňte `"lat"` a `"lng"` k místu; dokud chybí,
+  navigace použije `address`
+- **Obrázek mapy** → `src/assets/map.jpg`
+- **Demo čas** → `DEMO_TIME` v `src/App.jsx` (tlačítko „Demo čas“ v hlavičce
+  přepíná mezi demo a reálným časem; v den akce se používá reálný čas)
+
+## Struktura jednoho místa
+
+```json
+{
+  "id": 1,
+  "number": 1,
+  "name": "Pohoda",
+  "stage": "HELION STAGE",
+  "address": "Tržnice, Trutnov",
+  "lat": 50.5609,
+  "lng": 15.9123,
+  "mapPosition": { "x": 43.3, "y": 43.5 },
+  "program": [
+    { "start": "2026-09-19T13:30:00+02:00", "end": "2026-09-19T14:30:00+02:00",
+      "title": "Pjet Samyc", "description": "babský music gang" }
+  ]
+}
+```
+
+Poznámka: u vystoupení „do vyčerpání“ / bez uvedeného konce jsou konce odhadnuté.
+Program se zobrazuje kolem současnosti: nahoře co bude, uprostřed „Právě hraje“,
+dole co už bylo — panel se po otevření sám vycentruje na teď.
