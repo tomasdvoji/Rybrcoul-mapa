@@ -8,23 +8,16 @@ import PlaceList from "./components/PlaceList.jsx";
 import { getPlacesPlayingNow } from "./lib/program.js";
 import stag from "./assets/rybrcoul-logo.svg";
 
-// Demo čas = uprostřed festivalu. Slouží k vyzkoušení zvýraznění „Právě hraje“
-// před začátkem akce (19. 9. 2026). V den akce přepněte na reálný čas.
-const DEMO_TIME = new Date("2026-09-19T18:20:00+02:00");
-
 export default function App() {
-  const [realNow, setRealNow] = useState(() => new Date());
-  const [demo, setDemo] = useState(true);
+  const [now, setNow] = useState(() => new Date());
   const [query, setQuery] = useState("");
   const [selectedId, setSelectedId] = useState(null);
   const [nowOpen, setNowOpen] = useState(false);
 
   useEffect(() => {
-    const t = setInterval(() => setRealNow(new Date()), 30_000);
+    const t = setInterval(() => setNow(new Date()), 30_000);
     return () => clearInterval(t);
   }, []);
-
-  const now = demo ? DEMO_TIME : realNow;
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -66,18 +59,6 @@ export default function App() {
               Trutnov
             </p>
           </div>
-          <button
-            type="button"
-            onClick={() => setDemo((d) => !d)}
-            className={[
-              "rounded-full border px-3 py-1.5 text-xs font-semibold transition-colors",
-              demo
-                ? "border-brand-gold/70 bg-brand-gold/20 text-brand-gold"
-                : "border-parch-2/30 bg-white/5 text-parch-2/70",
-            ].join(" ")}
-          >
-            {demo ? "Demo čas" : "Reálný čas"}
-          </button>
         </div>
         <p className="mt-2 font-serif text-sm italic text-parch-2/80 lg:text-xl">
           Rýbrcoul &amp; sousedé · sobota 19. září 2026
