@@ -71,11 +71,17 @@ export default function EventMap({ places, selectedId, playingIds, onSelect }) {
       }
     };
 
+    // iOS Safari: zabránit zoomu celé stránky gestem nad mapou
+    const stopGesture = (e) => e.preventDefault();
+    sc.addEventListener("gesturestart", stopGesture);
+    sc.addEventListener("gesturechange", stopGesture);
     sc.addEventListener("touchstart", onStart, { passive: false });
     sc.addEventListener("touchmove", onMove, { passive: false });
     sc.addEventListener("touchend", onEnd);
     sc.addEventListener("touchcancel", onEnd);
     return () => {
+      sc.removeEventListener("gesturestart", stopGesture);
+      sc.removeEventListener("gesturechange", stopGesture);
       sc.removeEventListener("touchstart", onStart);
       sc.removeEventListener("touchmove", onMove);
       sc.removeEventListener("touchend", onEnd);
